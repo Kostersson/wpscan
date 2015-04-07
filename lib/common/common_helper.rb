@@ -127,20 +127,9 @@ end
 
 # our 1337 banner
 def banner
-  puts '_______________________________________________________________'
-  puts '        __          _______   _____                  '
-  puts '        \\ \\        / /  __ \\ / ____|                 '
-  puts '         \\ \\  /\\  / /| |__) | (___   ___  __ _ _ __  '
-  puts '          \\ \\/  \\/ / |  ___/ \\___ \\ / __|/ _` | \'_ \\ '
-  puts '           \\  /\\  /  | |     ____) | (__| (_| | | | |'
-  puts '            \\/  \\/   |_|    |_____/ \\___|\\__,_|_| |_|'
-  puts
-  puts '        WordPress Security Scanner by the WPScan Team '
-  puts "                       Version #{WPSCAN_VERSION}"
-  puts '          Sponsored by Sucuri - https://sucuri.net'
-  puts '   @_WPScan_, @ethicalhack3r, @erwan_lr, pvdl, @_FireFart_'
-  puts '_______________________________________________________________'
-  puts
+  puts '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+  puts '<test>'
+
 end
 
 def xml(file)
